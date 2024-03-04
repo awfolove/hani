@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1" />
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+
+
+<meta property="og:image" content="https://misohani.com/contents/images/mainlogo.png" />
+
+
+<meta name="naver-site-verification" content="a3fd256546efa6ec2109668bfa5aacfdfd46458d" />
+<title>한의원 사이트 예시2</title>
+<link rel="stylesheet" href="https://misohani.com/css/default.css" />
+<link rel="stylesheet" href="https://misohani.com/amina/misc/outlogin/onweb_member_social/outlogin.css?ver=161020" />
+<link rel="stylesheet" href="https://misohani.com/skin/latest/owl_slide2/style.css?ver=161020" />
+<link rel="stylesheet" href="https://misohani.com/skin/latest/content_link2/style.css?ver=161020" />
+<link rel="stylesheet" href="https://misohani.com/amina/app/Font-Awesome/css/font-awesome.min.css?ver=161020" />
+<link rel="stylesheet" href="https://misohani.com/amina/app/fancyBox2/source/jquery.fancybox.css?v=2.1.5" />
+<link rel="stylesheet" href="https://misohani.com/amina/app/Tooltipster/css/tooltipster.css?ver=161020" />
+<link rel="stylesheet" href="https://misohani.com/amina/css/amina.css?ver=161020" />
+<link rel="stylesheet" href="https://misohani.com/amina/misc/latest/list/basic/latest.list.css?ver=161020" />
+<link rel="stylesheet" href="https://misohani.com/plugin/oauth/style_onweb.css?ver=161020" />
+<link rel="canonical" href="https://misohani.com/" />
+
+<!---------------------------------- / 페이지 상단에 포함하는 CSS STYLE / BEGIN / -------------------------------------->
+
+<link rel="apple-touch-icon-precomposed" href="/contents/images/mainlogo_icon.png" />
+<link rel="apple-touch-icon" href="/contents/images/mainlogo_icon.png" />
+<link rel="shortcut icon" href="/contents/images/mainlogo_icon.png" />
+
+<link rel="stylesheet" href="https://misohani.com/contents/css/font/nanumbarungothic.css" type="text/css" />
+<link rel="stylesheet" href="https://misohani.com/contents/css/font/nanumsquare.css" type="text/css" />
+<link rel="stylesheet" href="https://misohani.com/contents/css/font/IropkeBatangM.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Slab:100" />
+
+<link rel="stylesheet" href="https://misohani.com/contents/css/common/animate.css" type="text/css" />
+<link rel="stylesheet" href="https://misohani.com/contents/css/font/font-awesome.min.css" />
+
+<link rel="stylesheet" href="https://misohani.com/theme/onweb/onweb/mediaquery.css" type="text/css" />
+<link rel="stylesheet" href="https://misohani.com/theme/onweb/onweb/mind_style.css" type="text/css" />
+
+<!---------------------------------- / 페이지 상단에 포함하는 CSS STYLE / E N D / -------------------------------------->
+
+<style>
+	#agnb ul { }
+	#agnb li { border:0px solid #EEE; margin-left:0px !important; }
+	#agnb li a { color: #333; } /* 주메뉴 색상 */
+	#agnb li.over a em { font-family:NanumSquare; width:auto !important; padding-left:34px !important; padding-right:34px !important; letter-spacing:-1px !important; } /* 주메뉴 넓이 */
+	#agnb li.over:hover { }
+	#agnb li.over a em:hover { color:#FF2626 !important; }
+	#agnb li a.select, #agnb li a.on { color:#FF2626 !important; } /* 주메뉴 선택시 색 고정 + 배경색 */
+	
+	#agnb dl { padding-top:13px !important; margin-left:0% !important; min-width:180px !important; left:calc(50% - 90px) !important; right:0% !important;} /*서브메뉴위 공간, 서브메뉴가 주메뉴보다 넓을 경우 조절함 */
+	#agnb dd a { color:#333; background:#FCFCFC;} /* 서브메뉴 색상 */
+	#agnb dd { letter-spacing:-1px !important; left:0px !important; right:0px !important; } /* 서브메뉴 넓이 */
+	#agnb dd a:hover{ background:#FF2626; color:#FFF; } /* 서브메뉴배경 색상 */
+	#agnb_subtop_bar { background:#000 !important; } /* 서브메뉴상단 라인색상 */
+</style>
+
+<!---------------- 구조화 데이터 및 채널 제출 ---------------->
+
+
+<script>
+	if (screen.width &lt; 641) {
+		document.getElementById("viewport").setAttribute("content","width=640px; user-scalable=yes !important;");
+	}
+</script>
+
+<!--[if lte IE 8]>
+<script src="https://misohani.com/js/html5.js">
+</script>
+<![endif]-->
+
+
+</head>
+<!--
+<body oncontextmenu="return false;">
+-->
+<body>
+<!-- 상단 시작 { -->
+<div id="hd" style="z-index: 1000;">
+    <h1 id="hd_h1">한의원</h1>
+
+    <div id="skip_to_container">
+<a href="#M_container">본문 바로가기</a>
+</div>
+
+    
+
+
+</div>
+<!-- } 상단 끝 -->
+
+<hr />
+
+<!-- 상단 타이틀이미지와 탑버튼 파일 인클루드 -->
+<style>
+	#slideout2 { position:absolute; position: fixed; z-index:11; top: 220px; width:50px; height:50px; right: 100px; border-top-left-radius:7px; border-bottom-left-radius:7px; text-align:center; background-color:#FF2626; color:#FFF; cursor:pointer; cursor:hand; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
+	#slideout_inner2 { position: fixed; top: 220px; width:100px; height:auto; right: 0px; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
+	
+	.click2active { right: 0px !important; }
+	.click2active_inner { right: -100px !important; }
+</style>
+
+<div id="slideout2" class="click2active">
+	<span style="font-size:28px; color:#FFF; line-height:50px; ">
+<i class="fa fa-info-circle">
+</i>
+</span>
+	<div id="slideout_inner2" class="click2active_inner">
+		
+		<!----------------------------- INNER BEGIN ---------------------------->
+		<style>
+			#slideout_inner2 a{ color:#333;}
+			#slideout_inner2 .text1{ color:#333; font-size:36px; padding:0px; letter-spacing:-1px; }
+			#slideout_inner2 .text2{ color:#333; font-family: 'Nanum Barun Gothic'; font-size:12px; font-weight:700; line-height:100%; padding:10px 0x; }
+		</style>
+		
+		
+		
+		<div style="width:100%; height:auto; text-align:center; background-color:#FBFBFB; border:1px solid #DDD; border-top:0px; color:#333; margin:0px; padding:0px;">
+			
+			<!-- 
+			<a href="/bbs/board.php?bo_table=consult" target="_self">
+				<div style="border-top:0px solid #DDD; padding:20px 0px; background:#FFF;">
+					<span style="font-size:36px;">
+<i class="fa fa-desktop">
+</i>
+</span>
+					<div class="text2" style="margin:10px 0px 5px 0px;">1:1상담</div>
+				</div>
+			</a>
+			-->
+			
+			<!-- 온라인상담 -->
+			<a href="/bbs/board.php?bo_table=consult" target="_self">
+				<div style="border-top:0px solid #DDD; padding:20px 0px; background:#FFF;">
+					<span style="font-size:36px;">
+<i class="fa fa-desktop">
+</i>
+</span>
+					<div class="text2" style="margin:10px 0px 5px 0px;">온라인문의</div>
+				</div>
+			</a>
+			
+			<!-- 오시는길 -->
+			<a href="/contents/page.php?id=0104" target="_self">
+				<div style="border-top:1px solid #DDD; padding:15px 0px; background:#FFF;">
+					<span style="font-size:50px;">
+<i class="fa fa-map-marker">
+</i>
+</span>
+					<div class="text2" style="margin:3px 0px;">오시는길</div>
+				</div>
+			</a>
+		</div>
+		
+		<!-- 최하단 바로가기 -->
+		<a href="javascript:scrollToTop()">
+			<div style="padding:15px 0px; background:#111; width:100%; height:auto; text-align:center; margin:0px; padding:0px;">
+				<div class="text2" style="margin:0px; padding:10px 0px; color:#FFF; line-height:130%;">TOP</div>
+				<script>
+					function scrollToTop() {
+					    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+					    element = $('body');
+					    offset = element.offset();
+					    offsetTop = offset.top;
+					    $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+					}
+				</script>
+			</div>
+		</a>
+		
+		<!----------------------------- INNER E N D ---------------------------->
+		
+	</div>
+</div>
+
+<script>
+	$(document).ready(function(){
+		$('#slideout2').click(function(e){
+		    $("#slideout2").toggleClass("click2active");
+		    $("#slideout2 #slideout_inner2").toggleClass("click2active_inner");
+		});
+	});
+	
+	function scrollToTop() {
+	    verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	    element = $('body');
+	    offset = element.offset();
+	    offsetTop = offset.top;
+	    $('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+	}
+	$(window).load(function(){
+		setTimeout(function() {
+			$("#slideout2").toggleClass("click2active");
+			$("#slideout2 #slideout_inner2").toggleClass("click2active_inner");
+		}, 2000);
+	});
+</script>
+
+<div style="width:100%; height:30px; z-index:10; margin:0 auto; padding:0; background-color:#FBF8F2; border-bottom:1px solid #F2EBDC; ">
+	
+	<style>
+		#topmenu_bar ul { list-style:none; margin:0; padding:0;}
+		#topmenu_bar li { position: relative; float:left; text-align:center; vertical-align:top; margin:0; padding:0; width:80px; border-left:1px solid #FFF; }
+		#topmenu_bar li a { display:block; font-size:11px; font-weight:normal; line-height:30px; text-decoration: none; color:#FFF; }
+		#topmenu_bar li a:hover{ /* background-color:#FF2626; color: #FFF; */ }
+		
+		#onweb_left_user:hover { background-color:#FF2626 !important; color: #FFF;}
+		#onweb_right_menu:hover{ background-color:#FF2626 !important; color: #FFF;}
+	</style>
+	
+	<div id="topmenu_bar" style="margin:0 auto; padding:0; height:30px; width:100%; max-width:1000px;">
+		
+		<div style="float:right; margin:0 auto; padding:0;">
+			<ul style="float:right;">
+				<li style="background-color:#999999; color:#FFF;">
+<a href="/">HOME</a>
+</li>
+									<li>
+<a href="/" style="background-color:#FF2626; color:#FFF;">로그인</a>
+</li>
+					<li>
+<a href="/" style="background-color:#333; color:#FFF;">회원가입</a>
+</li>
+								<li style="max-width:35px !important;">
+<div id="onweb_left_user" class="btn btn-warning btn-sidemenu" data-target="#leftMenu" data-act="toggle" style="margin:0; padding:0; max-width:35px; height:30px; line-height:30px; background-color:#000; color:#FFF; cursor:pointer; cursor:hand; text-align:center;">
+<i class="fa fa-user fa-lg">
+</i>
+</div>
+</li>
+				<li style="max-width:35px !important; border-right:1px solid #FFF;">
+<div id="onweb_right_menu" class="btn btn-warning btn-sidemenu" data-target="#rightMenu" data-act="toggle" style="margin:0; padding:0; max-width:35px; height:30px; line-height:30px; background-color:#000; color:#FFF; cursor:pointer; cursor:hand; text-align:center;">
+<i class="fa fa-bars fa-lg">
+</i>
+</div>
+</li>
+			</ul>
+		</div>
+		
+	</div>
+</div>
+
+
+
+<div id="top_menu" style="width:100%; height:55px; z-index:10; margin:0px auto; padding:0px; border-top:1px solid #F2EBDC; background-color:#FBF8F2;">
+    <div style="width:100%; max-width:1000px; z-index:2; display:block; margin:0px auto; padding:0px; ">
+        <div id="mainmenu_layer" style="position:relative; z-index:10; margin:6px 0px 4px 0px; padding:0px; ">
+            <!----------------------------------- 메인메뉴 레이어 BEGIN ----------------------------------->
+
+
+
+
+<link rel="stylesheet" href="https://misohani.com/theme/onweb/onweb/onweb_menu.css" />
+<script src="https://misohani.com/contents/js/onweb_menu.js">
+</script>
+
+<style>
+	/* 상단 슬라이드 이미지 메뉴 스타일 */
+	.header{ max-width:1260px; zoom:1;clear:both;height:50px;padding:0px;margin:0px auto; background-color:#FFF; margin-top:0px; border-left:1px solid #EEE;}
+	#onwebmenu2 {max-width:1260px; height:250px; margin:0 auto; position:relative; overflow:hidden; }
+	#onwebmenu2 ul, #onwebmenu2 li {zoom:1; padding:0px; margin:0px; list-style:none; }
+	#onwebmenu2 ul{list-style:none; text-align:center; }
+	#onwebmenu2  li{float:left; margin:0; padding:0;}
+	#onwebmenu2  li .mn_onweb_mm{text-align:center; }
+	#onwebmenu2 .onweb_mm{ padding:0px 52px; height:50px; line-height:50px; } /* 메뉴넓이 조절 */
+	#onwebmenu2 .onweb_mm a{color:#000; font-family:'Nanum Barun Gothic'; font-weight:bold; font-size:16px; display:block;}
+	
+	#onwebmenu2 .onweb_sm{display:none; position:absolute; padding-top:20px; padding-right: 0px; max-width:1260px; background-color:#FFF; float:left; left: 0 !important; border-top:1px solid #EEE; border-bottom:3px solid #FF2626;}
+	#onwebmenu2 .onweb_sm li{margin-left:0;padding:0; text-align:left; }
+	#onwebmenu2 .onweb_sm li a{font:bold 12px/19px "Nanum Barun Gothic";color:#333;letter-spacing:-1px; display:block;}
+	#onwebmenu2 .onweb_sm li.off a{color:#000;}
+	#onwebmenu2 .mn_menu li a{color:#363636 !important; font-weight:normal;font-family: 'Nanum Barun Gothic';font-size:15px; width:140px;}
+	#onwebmenu2 .mn_menu li a.select{color:#aa9329 !important; font-weight:normal;font-family: 'Nanum Barun Gothic';font-size:15px;}
+	
+	.mn_logo{width:25%;height:115px;float:left;box-sizing: border-box;border-right:1px solid rgba(0, 0, 0,0.1); padding-top:20px 0; text-align:center;}
+	.mn_logo h1{font-size:35px;line-height:35px;color:#FF2626;font-weight:normal;margin-top:10px;}
+	.mn_logo p{font-size:14px;color:#999;margin-top: 5px;}
+	.mn_menu{width:calc(45% - 60px);height:90px;float:left; box-sizing: border-box;padding:9px 20px;border-right:1px solid rgba(255, 255, 255,0.1); padding-left:30px !important;}
+	.mn_menu li{width:140px; float:left;}
+	.mn_menu li a{color:#777;font-size:13px;display: block;padding: 3px 0 5px 10px;font-weight:bold;}
+	.mn_menu li a:hover{color:#000;text-decoration:none;}
+	.mn_img{float:right;box-sizing: border-box; margin-top:-20px;width:30%;}
+</style>
+<!---------------------------------- 메인메뉴 PC 용 BEGIN ------------------------------------->
+<div id="agnb_wrap" style="margin: 0px auto; padding: 0px; display: block;">
+	<div id="agnb" style="margin:0 auto; padding:0px;">
+		<ul>
+			
+			<li class="over">
+<a href="#">
+<em>한의원</em>
+</a>
+
+</li>
+<li class="over">
+<a href="#">
+<em>다이어트</em>
+</a>
+
+</li>
+<li class="over">
+<a href="#">
+<em>성장 클리닉</em>
+</a>
+
+</li>
+<li class="over">
+<a href="#">
+<em>특설클리닉</em>
+</a>
+
+</li>
+<li class="over">
+<a href="#">
+<em>열린 상담실</em>
+</a>
+
+</li>
+
+<li class="over">
+<a href="#">
+<em>커뮤니티</em>
+</a>
+</li>		
+
+<li class="over">
+	<a href="#">
+	<em>오시는길</em>
+	</a>
+	</li>	
+
+
+		</ul>
+		<div class="clear">
+</div>
+	</div>
+</div>
+<!---------------------------------- 메인메뉴 PC 용 E N D ------------------------------------->
+<!-------------------------------- 메인메뉴 모바일 용 BEGIN ----------------------------------->
+
+<!--우측 메뉴바-->
+
+
+<!--좌측 메뉴바-->
+
+<!-------------------------------- 메인메뉴 모바일 용 E N D ----------------------------------->
+
+        </div>
+	
+    </div>
+</div>
+
+<div id="top_underbar" style="width:100%; height:30px; z-index:1; margin:0 auto; padding:0; display:none;">
+</div>
+
+
+<!-------------------------------------- M_container 콘텐츠 시작 BEGIN --------------------------------------->
+<div id="M_container">
+
+
+
+
+	<!------------------------------------ 메인페이지 출력내용 BEGIN ----------------------------------->
+	
+	<!---------------------- 컨텐츠 페이지 상단에 포함하는 스타일시트 ----------------------->
+	<link rel="stylesheet" href="/contents/css/contents_style.css" type="text/css" />
+	<style>
+		.onweb_btn11 { background-color:transparent; padding:5px 20px; display:inline-block; cursor:pointer; font-size:12px; font-weight:normal; text-decoration:none; border:2px solid #FFF; color:#FFF !important;}
+		.onweb_btn11 { -moz-border-radius:0px; -webkit-border-radius:0px; border-radius:21px; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
+		.onweb_btn11:hover {	background:#F00 !important; color:#FFF !important;}
+		
+		.onweb_btn12 { background-color:transparent; padding:5px 20px; display:inline-block; cursor:pointer; font-size:12px; font-weight:normal; text-decoration:none; color:#999 !important;}
+		.onweb_btn12 { -moz-border-radius:0px; -webkit-border-radius:0px; border-radius:21px; -webkit-transition-duration: 0.3s; -moz-transition-duration: 0.3s; -o-transition-duration: 0.3s; transition-duration: 0.3s; }
+		.onweb_btn12:hover {color:#F00 !important;}
+		
+		.sodam_color0 { color:#FF0000; }
+		.sodam_color1 { color:#2A3046; }
+		.sodam_color2 { color:#FF4749; }
+		.sodam_color3 { color:#4C3928; }
+		.sodam_color4 { color:#F79A84; }
+	</style>
+	
+	<!---------- SECTION #00 BEGIN ---------->
+	<div id="SECTION_00" style="position:relative; z-index:0; top:0px; width:100%; margin:0 auto; padding:0; display:block; text-align: center;">
+		
+		<img src="fat.jpg" style="width:300px; display:inline-block;">
+
+		<div style="font-family: NanumSquare; display:inline-block; ">
+			<div class="one" style="font-family: NanumSquare; font-size: 19px;  font-weight: bold;  ">
+				<br><br>길었던 다이어트 끝, 한의원이 함께 합니다.<br><br>
+			</div>
+	
+			<div class="two" style="font-family: NanumSquare; font-size: 25px;  font-weight: bold;  ">
+				요요 NO! 스트레스 NO! 건강 YES!<br><br>
+			</div>
+	
+			<div class="three" style="font-family: NanumSquare; font-size: 15px; ">
+				수많은 임상 경험으로 당신의 다이어트를 건강하고 확실하게 도와드립니다.
+			</div>
+		</div>
+
+		
+	</div>
+	<!---------- SECTION #00 E N D ---------->
+	
+
+	
+	<!---------- SECTION #02 ---------->
+	<div id="SECTION_02" class="wow fadeIn" style="position:relative; z-index:0; width:100%; margin:0 auto; padding:0; text-align:center; background-color:#F2EBDC; ">
+		<div id="SECTION_02_layer1" class="project_section" style="max-width:100%; display:block; margin:0 auto; padding:70px 0; margin-top:0px; margin-bottom:0px; z-index:0; overflow:hidden;">
+			<style>
+				.project_container { position: relative; max-width: 1200px; margin:0 auto; padding:0px; }
+				.recent-project:hover { border-bottom: 3px solid #FF2626 !important; }
+				#owl_project1 .owl-dots .owl-dot.active { background:#F00; width:30px; }
+				#owl_project1 .owl-dots .owl-dot { background:#AAA; }
+				#owl_project1 .owl-dots { position:absolute; width:100%; bottom:-30px; text-align:center; }
+			</style>
+			<div class="project_container">
+				 <!-- Owl Carousel Assets -->
+    <link href="https://misohani.com/skin/latest/content_link2/owl-carousel/owl.carousel.css" rel="stylesheet" />
+    <link href="https://misohani.com/skin/latest/content_link2/owl-carousel/owl.theme.css" rel="stylesheet" />
+    <link href="https://misohani.com/skin/latest/content_link2/assets/js/google-code-prettify/prettify.css" rel="stylesheet" />
+
+    <script src="https://misohani.com/skin/latest/content_link2/owl-carousel/owl.carousel.js">
+</script>
+
+		
+	<style>
+		.recent-project { position: relative; overflow: hidden; margin: 0px 10px;}
+		.recent-project img { width: 100%;}
+		.project-info { position: absolute; left: 0; top: 0%; padding-top: 20%; color: #fff; width: 100%; height:200%; text-align: center;}
+		.project-info .title1 { line-height: 200%; color:#FFF; font-size:50px; text-align:center; font-weight:normal; letter-spacing:0px; }
+		
+		ul.project-meta { margin: 0; padding: 0; }
+		ul.project-meta li{ display: inline-block; padding:5px 10px; border: 1px solid #fff;}
+		ul.project-meta li a{ display: inline-block; color: #fff; font-size: 14px; }
+		ul.project-meta li a:hover{ color: #f76758; }
+		
+		.full-project { position: absolute; left: 0; bottom: 0; width: 100%; padding: 16px 20px; line-height: 18px; font-size: 18px; text-transform: capitalize; background: rgba(254,82,76, 1);}
+		.full-project:hover { background: rgba(223,81,76, 1);}
+		.full-project a { padding: 0px; display: block; color: #fff;}
+		.full-project a:hover{ color:#fff;}
+		.full-project a i{ font-size: 14px; padding: 0 10px; line-height: 20px;}
+		
+		.c-title { position: relative; left: 0; width: 100%; padding: 0px; line-height: 70px; font-size: 18px; font-family:NanumSquare; font-weight:400; text-transform: capitalize; background: #FFF; color:#333; text-align:center; letter-spacing:-1px;  }
+		
+		.recent-project { border-bottom: 3px solid #CCC; }
+		.recent-project:hover { border-bottom: 3px solid #F41C54; }
+		
+		/* Overlay and hover effect */
+		.recent-project::before { content: ""; background: rgba(0,0,0,0.8); width: 100%; height: 100%; position: absolute; left: 0; top: 0; opacity: 0; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s;}
+		.recent-project:hover::before { opacity: 0.3;}
+		
+		.project-info .title1, ul.project-meta, .full-project { opacity: 0; visibility: hidden; -webkit-transform: translateY(100px); -moz-transform: translateY(100px); -ms-transform: translateY(100px); -o-transform: translateY(100px); transform: translateY(100px);}
+		.project-info .title1, ul.project-meta{ -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s;}
+		.full-project { -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;}
+		.recent-project:hover .project-info .title1, .recent-project:hover ul.project-meta, .recent-project:hover .full-project { opacity: 1; visibility: visible; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0);}
+	</style>
+		
+		<div id="owl_project1" class="owl-carousel owl-loaded owl-drag">
+			
+						
+			
+			
+			
+						
+		<div class="owl-stage-outer">
+<div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1200px;">
+<div class="owl-item active" style="width: 240px;">
+<div class="item recent-project">
+				<a href="/contents/page.php?id=0201">
+			    	<img src="https://misohani.com/data/file/pagelink/31750736_oP5lbvVX_0fb6cb7c3597a6e982c2a9876ea5fb042d0c23e6.jpg" alt="" />
+			    	<div class="project-info">
+			    	    <div class="title1">
+<i class="fa fa-angle-double-right">
+</i>
+</div>
+			    	</div>
+			    	</a>
+<div class="full-project">
+<a href="/contents/page.php?id=0201">
+			    	    </a>
+<a href="/contents/page.php?id=0201" title="">다이어트<i class="fa fa-chevron-right">
+</i>
+</a>
+			    	</div>
+			    	<div class="c-title">
+			    	    <a href="/contents/page.php?id=0201">다이어트</a>
+			    	</div>
+			    
+			</div>
+</div>
+<div class="owl-item active" style="width: 240px;">
+<div class="item recent-project">
+				<a href="/contents/page.php?id=0301">
+			    	<img src="https://misohani.com/data/file/pagelink/31750736_JhkZcO1u_5f80119aff703b37bc4cae7e426a07b0de65856b.jpg" alt="" />
+			    	<div class="project-info">
+			    	    <div class="title1">
+<i class="fa fa-angle-double-right">
+</i>
+</div>
+			    	</div>
+			    	</a>
+<div class="full-project">
+<a href="/contents/page.php?id=0301">
+			    	    </a>
+<a href="/contents/page.php?id=0301" title="">성장 클리닉<i class="fa fa-chevron-right">
+</i>
+</a>
+			    	</div>
+			    	<div class="c-title">
+			    	    <a href="/contents/page.php?id=0301">성장 클리닉</a>
+			    	</div>
+			    
+			</div>
+</div>
+<div class="owl-item active" style="width: 240px;">
+<div class="item recent-project">
+				<a href="/contents/page.php?id=0401">
+			    	<img src="https://misohani.com/data/file/pagelink/31750736_Hm2wTYpy_ed35fb12903e8d5ad87427208f11dc6f900048c4.jpg" alt="" />
+			    	<div class="project-info">
+			    	    <div class="title1">
+<i class="fa fa-angle-double-right">
+</i>
+</div>
+			    	</div>
+			    	</a>
+<div class="full-project">
+<a href="/contents/page.php?id=0401">
+			    	    </a>
+<a href="/contents/page.php?id=0401" title="">특설 클리닉<i class="fa fa-chevron-right">
+</i>
+</a>
+			    	</div>
+			    	<div class="c-title">
+			    	    <a href="/contents/page.php?id=0401">특설 클리닉</a>
+			    	</div>
+			    
+			</div>
+</div>
+<div class="owl-item active" style="width: 240px;">
+<div class="item recent-project">
+				<a href="/bbs/board.php?bo_table=exp02">
+			    	<img src="https://misohani.com/data/file/pagelink/31750736_MtEhvTOU_6bd91d4f79056e251cc5bf96b9412fa1f9ba6839.jpg" alt="" />
+			    	<div class="project-info">
+			    	    <div class="title1">
+<i class="fa fa-angle-double-right">
+</i>
+</div>
+			    	</div>
+			    	</a>
+<div class="full-project">
+<a href="/bbs/board.php?bo_table=exp02">
+			    	    </a>
+<a href="/bbs/board.php?bo_table=exp02" title="">성공 사례<i class="fa fa-chevron-right">
+</i>
+</a>
+			    	</div>
+			    	<div class="c-title">
+			    	    <a href="/bbs/board.php?bo_table=exp02">성공 사례</a>
+			    	</div>
+			    
+			</div>
+</div>
+<div class="owl-item active" style="width: 240px;">
+<div class="item recent-project">
+				<a href="/bbs/board.php?bo_table=consult">
+			    	<img src="https://misohani.com/data/file/pagelink/31750736_C2tFmPgO_7c71a7e27e8574238d29d04e6e32b94add5f0df4.jpg" alt="" />
+			    	<div class="project-info">
+			    	    <div class="title1">
+<i class="fa fa-angle-double-right">
+</i>
+</div>
+			    	</div>
+			    	</a>
+<div class="full-project">
+<a href="/bbs/board.php?bo_table=consult">
+			    	    </a>
+<a href="/bbs/board.php?bo_table=consult" title="">비용문의·상담<i class="fa fa-chevron-right">
+</i>
+</a>
+			    	</div>
+			    	<div class="c-title">
+			    	    <a href="/bbs/board.php?bo_table=consult">비용문의·상담</a>
+			    	</div>
+			    
+			</div>
+</div>
+</div>
+</div>
+<div class="owl-nav disabled">
+<div class="owl-prev">prev</div>
+<div class="owl-next">next</div>
+</div>
+<div class="owl-dots disabled">
+</div>
+</div>
+		
+	<style>
+		#owl_project1 .item img{ display: block; width: 100%; height: auto; }
+	</style>
+	
+	<script>
+		$(document).ready(function() {
+			$("#owl_project1").owlCarousel({
+			slideSpeed : 200,
+			autoplay:true,
+		    items : 5,
+			dots: true,
+			nav: false,
+			singleItem : false
+		  });
+		});
+	</script>
+			</div>
+		</div>
+	</div>
+	
+	<!---------- SECTION #03 ---------->
+	<div id="SECTION_03" style="position:relative; z-index:1; width:100%; display:block; overflow:hidden; margin:0 auto; padding:0; background:#BFAA8F url(/contents/images/section_master_bg.png) fixed center left; display:none;">
+		<div id="SECTION_03_layer1" style="max-width:1000px; display:block; margin:0 auto; padding:0; z-index:0; overflow:hidden; margin-top:35px; margin-bottom:35px; height:auto;">
+			<div id="SECTION_03_layer11" class="sub_left_50" style="float:left; width:50%; margin:0 auto; padding:0; text-align:left;">
+				<a href="/contents/page.php?id=0101">
+<img id="master_pic1" src="/contents/images/mban_04_1.png" style="width:100%; max-width:450px;" />
+</a>
+			</div>
+			<div id="SECTION_03_layer12" class="sub_right_50" style="float:left; width:50%; margin:0 auto; padding:0; margin-top:45px;">
+				<a href="/contents/page.php?id=0101">
+<img id="master_pic2" src="/contents/images/mban_04_2.png" style="float:left; width:100%;" />
+</a>
+			</div>
+		</div>
+	</div>
+	
+
+	
+	
+	<!------------------------------------ 메인페이지 출력내용 E N D ----------------------------------->
+
+
+
+
+<!-- //하단 Footer 공통영역 BEGIN -->
+
+
+<!-- //하단 Footer 공통영역 E N D -->
+
+<div id="SECTION_sitemap" class="scrollview_post show" style="position:relative; z-index:1; width:100%; display:block; overflow:hidden; margin:0 auto; padding:0; background-color:#FFF;">
+	<div id="main_sitemap_layer1" style="max-width:1000px; height:400px; text-align:center; display:block; margin:0 auto; padding:0; z-index:0; overflow:hidden; margin-bottom:0px;">
+		
+		<div style="max-width:1000px; color:#333; font-size:36px; font-family:NanumSquare; font-weight:300; margin:50px 0 30px 0; padding:0 0 30px 0; border-bottom:1px solid #DDD;">SITEMAP</div>
+		<div style="position:relative; float:left; width:16.666666666667%; margin:0px; padding:0px;">
+<div style="font-size:14pt; font-family:NanumSquare; font-weight:700; padding:0 0 10px 0; margin:0px; line-height:27px; letter-spacing:-2px !important;">
+<a style="color:#333;" href="#" target="_self">한의원</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0101" target="_self">인사말</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0102" target="_self">진료안내</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/bbs/board.php?bo_table=gallery" target="_self">한의원둘러보기</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0104" target="_self">오시는길</a>
+</div>
+</div>
+<div style="position:relative; float:left; width:16.666666666667%; margin:0px; padding:0px;">
+<div style="font-size:14pt; font-family:NanumSquare; font-weight:700; padding:0 0 10px 0; margin:0px; line-height:27px; letter-spacing:-2px !important;">
+<a style="color:#333;" href="#" target="_self">다이어트</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0201" target="_self">다이어트의 장점</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0202" target="_self">다이어트 프로그램</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0203" target="_self">다이어트 요법</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0204" target="_self">나의 비만도는?</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/bbs/board.php?bo_table=faq" target="_self">자주하는질문</a>
+</div>
+</div>
+<div style="position:relative; float:left; width:16.666666666667%; margin:0px; padding:0px;">
+<div style="font-size:14pt; font-family:NanumSquare; font-weight:700; padding:0 0 10px 0; margin:0px; line-height:27px; letter-spacing:-2px !important;">
+<a style="color:#333;" href="#" target="_self">성장 클리닉</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0301" target="_self">성장클리닉의 장점</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0302" target="_self">성장 프로그램</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0303" target="_self">내 또래 아이들 키는?</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0304" target="_self">나의 예상키는?</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0305" target="_self">키크는 식습관과 생활습관</a>
+</div>
+</div>
+<div style="position:relative; float:left; width:16.666666666667%; margin:0px; padding:0px;">
+<div style="font-size:14pt; font-family:NanumSquare; font-weight:700; padding:0 0 10px 0; margin:0px; line-height:27px; letter-spacing:-2px !important;">
+<a style="color:#333;" href="#" target="_self">특설클리닉</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0401" target="_self">총명 클리닉</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0402" target="_self">화병 클리닉</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0403" target="_self">산전 산후 관리</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0404" target="_self">기흉 클리닉</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/contents/page.php?id=0405" target="_self">경옥고,공진단</a>
+</div>
+</div>
+<div style="position:relative; float:left; width:16.666666666667%; margin:0px; padding:0px;">
+<div style="font-size:14pt; font-family:NanumSquare; font-weight:700; padding:0 0 10px 0; margin:0px; line-height:27px; letter-spacing:-2px !important;">
+<a style="color:#333;" href="#" target="_self">열린 상담실</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/bbs/board.php?bo_table=consult" target="_self">온라인 문의</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/bbs/write.php?bo_table=yeyak" target="_self">온라인 예약</a>
+</div>
+</div>
+<div style="position:relative; float:left; width:16.666666666667%; margin:0px; padding:0px;">
+<div style="font-size:14pt; font-family:NanumSquare; font-weight:700; padding:0 0 10px 0; margin:0px; line-height:27px; letter-spacing:-2px !important;">
+<a style="color:#333;" href="#" target="_self">커뮤니티</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/bbs/board.php?bo_table=notice" target="_self">한의원소식</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/bbs/board.php?bo_table=exp02" target="_self">성공사례</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/bbs/board.php?bo_table=column" target="_self">칼럼</a>
+</div>
+<div style="font-size:9pt; font-weight:normal; color:#999; padding:0px; margin:0px; line-height:27px; letter-spacing:-1px !important;">
+<a style="color:#666;" href="/bbs/board.php?bo_table=exp01" target="_self">치료후기</a>
+</div>
+</div>		
+	</div>
+</div>
+
+
+
+
+<div style="width:100%; margin:0 auto; padding:0; background-color:#333; ">
+	<style>
+		#foot_layer_guide ul { list-style:none; margin:0px; padding:0;}
+		#foot_layer_guide .ftitle { font-family:NanumSquare; font-size:24px; font-weight:300; }
+		#foot_layer_guide li { text-align:left; vertical-align:top; margin:0; padding:0; line-height:25px; letter-spacing:-1px;}
+		#foot_layer_guide li a { font-size:13px; font-weight:normal; text-decoration: none; color:#FFF;}
+	</style>
+	
+	<div id="foot_layer_guide" style="max-width:1100px; margin:0 auto; padding:0px; overflow:hidden;">
+		<div style="float:left; margin:0 0 0 50px; padding:0px; color:#FFF;">
+			<ul>
+				<li style="margin:50px 0 10px 0;">
+<span class="ftitle">Website guide</span>
+</li>
+				<li>
+<a href="/bbs/content.php?co_id=privacy">개인정보 취급방침</a>
+</li>
+				<li>
+<a href="/bbs/content.php?co_id=privacy2">개인정보 처리방침</a>
+</li>
+				<li>
+<a href="/bbs/content.php?co_id=provision">홈페이지 이용약관</a>
+</li>
+				<li>
+<a href="/bbs/content.php?co_id=noemail">이메일 무단수집거부</a>
+</li>
+			</ul>
+			<style>
+				#foot_snslink ul { list-style:none; margin:0; padding:0;}
+				#foot_snslink li { float: left; margin:0 5px 0 0; padding:0; width:30px; height:30px; text-align:center; border-radius:30px; background-color:#222; }
+				#foot_snslink li i{ margin:0 auto; padding:0; line-height:30px; color:#FFF;}
+				#foot_snslink li:hover{ background-color:#000 !important; color:#FFF; }
+			</style>
+			<div id="foot_snslink" style="position:relative; max-width:200px; margin:10px 0 0 0; padding:0px;">
+				<ul>
+					<li style="background-color:#395B9A;" title="페이스북">
+<a href="#">
+<i class="fa fa-facebook">
+</i>
+<br />
+</a>
+</li>
+					<li style="background-color:#33CCFF;" title="트위터">
+<a href="#">
+<i class="fa fa-twitter">
+</i>
+<br />
+</a>
+</li>
+					<li style="background-color:#D94835;" title="구글플러스">
+<a href="#">
+<i class="fa fa-google-plus">
+</i>
+<br />
+</a>
+</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div style="float:left; margin:0 0px 0 50px; padding:0px; color:#FFF;">
+			<ul>
+				<li style="margin:50px 0 10px 0;">
+<span class="ftitle">Information</span>
+</li>
+				<li>상호 : 한의원</li>
+				<li>사업자등록번호 : 123-12-12345 / 대표자명 : 홍길동</li>
+				<li>주소 : 서울시 서초구 </li>
+				<li>
+</li>
+				<li>대표전화 : 02-123-1234</li>
+				<li>이메일 : </li>
+				
+				
+				
+			</ul>
+		</div>
+		
+		<div style="float:left; width:300px; margin:0 0 0 50px; padding:0px; color:#FFF;">
+			<ul>
+				<li style="margin:50px 0 10px 0;">
+<span class="ftitle">Quick menu</span>
+</li>
+			</ul>
+			<style>
+				#foot_quickmenu ul { list-style:none; margin:0; padding:0;}
+				#foot_quickmenu li { float: left; margin:0 15px 0 0; padding:0; width:60px; height:60px; text-align:center; border-radius:60px; background-color:#222; }
+				#foot_quickmenu li i{ margin:0 auto; padding:0; line-height:60px; color:#FFF;}
+				#foot_quickmenu li:hover{ background-color:#000; color:#FFF; }
+			</style>
+			<div id="foot_quickmenu" style="position:relative; max-width:300px; margin:10px 0 0 0; padding:0px;">
+				<ul>
+					<li>
+<a href="/contents/page.php?id=0102" target="_self">
+<i class="fa fa-clock-o" style="font-size:32px;">
+</i>
+<br />진료안내</a>
+</li>
+					<li>
+<a href="/bbs/board.php?bo_table=consult" target="_self">
+<i class="fa fa-stethoscope" style="font-size:27px;">
+</i>
+<br />문의/상담</a>
+</li>
+					<li>
+<a href="/bbs/write.php?bo_table=yeyak" target="_self">
+<i class="fa fa-desktop" style="font-size:25px;">
+</i>
+<br />예약</a>
+</li>
+					<li>
+<a href="/contents/page.php?id=0104" target="_self">
+<i class="fa fa-map-marker" style="font-size:32px;">
+</i>
+<br />오시는길</a>
+</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="onweb_Statistics" style="float:left; margin:0 0 120px 50px; padding:0px; color:#FFF;">
+			<ul>
+				<li style="margin:50px 0 10px 0;">
+<span class="ftitle">Statistics</span>
+</li>
+				<li>
+</li>
+<li>오늘 : 0</li>
+<li>어제 : 0</li>
+<li>최대 : 0</li>
+<li>전체 : 0</li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+<div style="float:left; max-width:1260px; height:20px; padding:0px; display:none;">
+	<style>
+		.head-div, .head-tbl th, .head-tbl td{ background-color:#FFF !important; border-top:3px solid #FF2626; } 
+	</style>
+</div>
+
+<!-------------------------------------- M_container 콘텐츠 시작 E N D --------------------------------------->
+</div>
+
+
+<hr />
+
+
+
+<!-- } 하단 끝 -->
+
+
+<script>
+$(function() {
+        font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+});
+</script>
+
+<script>
+$(document).ready(function() {
+		
+		jQuery('.scrollview_post').addClass("show").viewportChecker({
+	    classToAdd: 'visible animated fadeInUp', // Class to add to the elements when they are visible
+	    offset: 100
+	   }); 
+	   
+	jQuery('.fadeInUp').addClass("show").viewportChecker({ classToAdd: 'visible animated fadeInUp', offset: 100 }); 
+	
+	
+});
+</script>
+<link rel="stylesheet" href="https://misohani.com/amina/css/amina.css" />
+<link rel="stylesheet" href="https://misohani.com/amina/app/Tooltipster/css/tooltipster.css" />
+<script type="text/javascript" src="https://misohani.com/amina/app/Tooltipster/js/jquery.tooltipster.min.js">
+</script>
+<script> 
+	
+$(document).ready(function() { 
+		$('.onweb_tips').tooltipster({ 
+	  animation: 'fade', 
+	  delay: 1, 
+	  touchDevices: false, 
+	  trigger: 'hover', 
+	  theme: 'tooltipster-onweb' 
+	}); 
+}); 
+</script>
+
+
+
+
+
+
+<div id="rightMenu" class="sidemenu sidemenu-right" style="padding: 10px; background: url(&quot;/contents/images/pattern/patternbg_07.jpg&quot;) left center rgb(51, 51, 51); border-left: 5px solid rgba(0, 0, 0, 0.5); width: 250px; border-top-color: rgba(0, 0, 0, 0.5); border-right-color: rgba(0, 0, 0, 0.5); border-bottom-color: rgba(0, 0, 0, 0.5); margin-right: -275px;">
+	
+	<div style="margin:0 auto; padding:0px; width:100%; text-align:center; margin-bottom:0px; display:block; ">
+		<a href="/">
+<img src="/contents/images/mainlogo.png" style="margin:0px; max-width:230px;" />
+</a>
+	</div>
+	
+	
+	
+
+</div>
+
+</body>
+</html>
